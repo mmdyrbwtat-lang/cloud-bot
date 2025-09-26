@@ -25,16 +25,16 @@ services:
     autoDeploy: true
     # Uncomment these and add your values if you want to store in render.yaml
     # It's recommended to use the Render dashboard for sensitive values
-    # envVars:
-    #   - key: BOT_TOKEN
-    #     value: your_token_here
-    #   - key: CHANNEL_ID
-    #     value: your_channel_id
-    #   - key: CHANNEL_FIRST_MESSAGE_ID
-    #     value: 2
-    #   - key: MONGO_URI
-    #     value: mongodb+srv://username:password@cluster.mongodb.net/database
-    #   - key: API_HASH
-    #     value: your_api_hash
-    #   - key: TELEGRAM_API_ID
-    #     value: your_api_id 
+     envVars:
+       - key: BOT_TOKEN
+         value: your_token_here
+       - key: CHANNEL_ID
+         value: your_channel_id
+       - key: CHANNEL_FIRST_MESSAGE_ID
+         value: 2
+       - key: MONGO_URI
+         value: mongodb+srv://username:password@cluster.mongodb.net/database
+       - key: API_HASH
+         value: your_api_hash
+       - key: TELEGRAM_API_ID
+         value: your_api_id 
